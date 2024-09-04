@@ -3,18 +3,6 @@ function ColorMyPencils(color)
 	vim.cmd.colorscheme(color)
     vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-
---    -- Set custom color for various syntax groups
---    vim.api.nvim_set_hl(0, 'Function', { fg = '#FFD700' }) -- Function names
---    vim.api.nvim_set_hl(0, 'Identifier', { fg = '#00FF00' }) -- Variable names
---    vim.api.nvim_set_hl(0, 'Keyword', { fg = '#FF00FF' }) -- Keywords like 'end'
---    vim.api.nvim_set_hl(0, 'Comment', { fg = '#808080', italic = true }) -- Comments
---    vim.api.nvim_set_hl(0, 'String', { fg = '#FFA500' }) -- String literals
---    vim.api.nvim_set_hl(0, 'Number', { fg = '#00CED1' }) -- Number literals
---    vim.api.nvim_set_hl(0, 'Boolean', { fg = '#DC143C' }) -- Boolean literals
---    vim.api.nvim_set_hl(0, 'Conditional', { fg = '#9370DB' }) -- Conditional statements
---    vim.api.nvim_set_hl(0, 'Operator', { fg = '#00BFFF' }) -- Operators
---    vim.api.nvim_set_hl(0, 'Type', { fg = '#7B68EE' }) -- Type names
 end
 
 return {
