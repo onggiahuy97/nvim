@@ -14,7 +14,7 @@ require("theprimeagen.lazy_init")
 -- DO.not
 
 ColorMyPencils("rose-pine-moon")
-vim.cmd("Copilot disable")
+-- vim.cmd("Copilot disable")
 
 local augroup = vim.api.nvim_create_augroup
 local ThePrimeagenGroup = augroup('ThePrimeagen', {})
