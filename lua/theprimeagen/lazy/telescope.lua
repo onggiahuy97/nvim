@@ -9,7 +9,11 @@ return {
 
     config = function()
 
-        require('telescope').setup({})
+        require('telescope').setup({
+            defaults = {
+                file_ignore_patterns = { "myenv/*" }
+            }
+        })
 
         vim.api.nvim_set_hl(0, 'TelescopeNormal', { bg='#ff0000' })
 
