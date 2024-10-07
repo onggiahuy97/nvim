@@ -13,7 +13,7 @@ require("theprimeagen.lazy_init")
 -- DO NOT INCLUDE THIS
 -- DO.not
 
-ColorMyPencils("rose-pine-moon")
+ColorMyPencils()
 vim.cmd("Copilot disable")
 
 local augroup = vim.api.nvim_create_augroup

@@ -6,7 +6,9 @@ function ColorMyPencils(color)
 end
 
 return {
-
+    {
+        "navarasu/onedark.nvim"
+    },
     {
         "erikbackman/brightburn.vim",
     },
