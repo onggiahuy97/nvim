@@ -1,3 +1,7 @@
+-- Show hidden files in netrw
+vim.g.netrw_list_hide = ''
+vim.opt.wildignore:remove('.env')  -- Ensure .env files aren't ignored in wildmenu
+
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 

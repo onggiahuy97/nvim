@@ -11,7 +11,11 @@ return {
 
         require('telescope').setup({
             defaults = {
-                file_ignore_patterns = { "myenv/*" }
+                file_ignore_patterns = {
+                    "myenv/*",
+                    "go/pkg/*",
+                    "go/bin/*",
+                }
             }
         })
 
