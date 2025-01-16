@@ -33,6 +33,7 @@ return {
                 "tsserver",
                 "pyright",
                 "html",
+                "intelephense",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
