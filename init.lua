@@ -83,6 +83,10 @@ I hope you enjoy your Neovim journey,
 
 P.S. You can delete this when you're done too. It's your config now! :)
 --]]
+-- Huy Ong
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.relativenumber = true
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
