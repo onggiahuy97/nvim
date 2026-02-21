@@ -4,7 +4,8 @@ return {
     event = 'InsertEnter', -- Load Copilot when entering insert mode
     config = function()
       -- Ensure Copilot is enabled/disabled properly
-      vim.g.copilot_enabled = true
+      -- Disable Copilot by default
+      vim.g.copilot_enabled = false
 
       -- Set keybinding to toggle Copilot
       vim.keymap.set('n', '<leader>cp', function()
